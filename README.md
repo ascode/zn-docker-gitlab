@@ -16,14 +16,14 @@ error: RPC failed; result=22, HTTP code = 413
 网上找了很多方法，不一一列举，试了都没用。我总结的方法就是使用ssh连接。只是这里使用ssh地址书写方式有讲究，具体如下：  
 
 #### 使用ssh
-命令git clone ssh://git@***.***.cn:100**/enjiafuture/nidexiangmumingcheng.git  
+命令git clone ssh://git@你的域名:你的ssh端口号/***/***.git  
 
 这里不得不提一下，gitlab装好后，建立项目之后，项目中提示的命令是这样的：  
 git clone git@c270a50be95a:enjiafuture/ef-web.git  
 这个官方推荐的命令根本行不通   
 
 
-我把官方的贴在下面  
+我把官方的贴在下面:  
 <pre style="font-size:12px;font-color:gray;">
 The repository for this project is empty  
 
