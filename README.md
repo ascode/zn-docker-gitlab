@@ -24,7 +24,7 @@ git clone git@c270a50be95a:enjiafuture/ef-web.git
 
 
 我把官方的贴在下面  
-<p style="font-size:12px;font-color:gray;">
+<pre style="font-size:12px;font-color:gray;">
 The repository for this project is empty  
 
 If you already have files you can push them using command line instructions below.  
@@ -55,7 +55,7 @@ git remote add origin git@c270a50be95a:enjiafuture/ef-web.git
 git add .  
 git commit  
 git push -u origin master  
-</p>
+</pre>
 
 
 
